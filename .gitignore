@@ -141,3 +141,4 @@ keys.json
 
 resources/chroma-env
 build
+testdir/
