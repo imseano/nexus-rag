@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+langchain_community
+langchain_chroma
+langchain_openai
+langchain_core
+langgraph
+langchain_text_splitters
+pydantic
