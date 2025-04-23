@@ -42,6 +42,10 @@ class LoadRequest(BaseModel):
 async def root():
     return {"message": "Hello World"}
 
+@app.get("/health")
+async def health():
+    return {"status": "OK"}
+
 @app.post("/query")
 async def query(request: QueryRequest):
     if rag is None:
